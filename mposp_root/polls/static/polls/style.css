@@ -1,0 +1,8 @@
+li a {
+  color: red;
+  font-size: 2rem;
+}
+
+body {
+  background: white url("images/logo_mediprepare_q.png") no-repeat;
+}
