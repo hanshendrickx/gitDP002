@@ -20,4 +20,7 @@ urlpatterns = [
     path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
     path('wordcount/', include('wordcount.urls')),
+    path('apis/v1/', include('apis.urls')),
 ]
+
+# todo_project/urls.py     path('apis/v1/', include('apis.urls')),
