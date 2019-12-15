@@ -42,7 +42,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'apis.apps.ApisConfig',
     'todos.apps.TodosConfig',
-    'snippets.apps.SnippetsConfig',    
+    'snippets.apps.SnippetsConfig',
+    # new local files always at bottom not simple pages to be able to make use of advanced features
+    'pages.apps.PagesConfig',
 ]
 
 REST_FRAMEWORK = {
